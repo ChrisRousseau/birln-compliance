@@ -79,15 +79,7 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
 
 ## 📋 Additional Screenshots (Optional but Recommended)
 
-### 9. App Settings - SMS Preferences
-- **What to capture**: Settings screen showing SMS preferences
-- **Key elements to show**:
-  - SMS notification settings
-  - Opt-out options
-  - User control over SMS communications
-- **File name**: `09-sms-settings.png`
-
-### 10. Database Consent Record (Admin View)
+### 9. Database Consent Record (Admin View)
 - **What to capture**: Database record showing consent
 - **Key elements to show**:
   - User ID
@@ -95,7 +87,7 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
   - Consent timestamp
   - Consent language
   - IP address (if logged)
-- **File name**: `10-database-consent-record.png`
+- **File name**: `09-database-consent-record.png`
 
 ## 📱 How to Take Screenshots
 
@@ -172,8 +164,7 @@ If you want me to run the git commands for you, just let me know!
 - [ ] 06-post-verification-screen.png
 - [ ] 07-privacy-policy-website.png
 - [ ] 08-terms-of-service-website.png
-- [ ] 09-sms-settings.png (optional)
-- [ ] 10-database-consent-record.png (optional)
+- [ ] 09-database-consent-record.png (optional)
 
 ## 📝 Notes
 
