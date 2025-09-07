@@ -4,95 +4,90 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
 
 ## 📱 App Screenshots Required
 
-### 1. Phone Number Input Screen
-- **What to capture**: The initial phone number entry screen
+### 1. Phone Number Input & SMS Consent Screen
+- **What to capture**: The combined phone number entry and consent screen
 - **Key elements to show**:
   - Phone number input field
-  - "Continue" or "Next" button
-  - App branding/logo
-- **File name**: `01-phone-input-screen.png`
-
-### 2. SMS Consent Checkbox Screen
-- **What to capture**: The consent screen with checkbox
-- **Key elements to show**:
   - Consent language text
   - Unchecked consent checkbox
   - Privacy Policy and Terms of Service links
   - "Continue" button (should be disabled until checkbox is checked)
-- **File name**: `02-sms-consent-checkbox.png`
+  - App branding/logo
+- **File name**: `01-phone-input-consent-screen.png`
 
-### 3. SMS Consent Checkbox (Checked)
+### 2. SMS Consent Checkbox (Checked)
 - **What to capture**: Same screen with checkbox checked
 - **Key elements to show**:
+  - Phone number input field
   - Consent language text
   - Checked consent checkbox
   - Privacy Policy and Terms of Service links
   - "Continue" button (now enabled)
-- **File name**: `03-sms-consent-checked.png`
+- **File name**: `02-sms-consent-checked.png`
 
-### 4. Verification Code Screen
+### 3. Verification Code Screen
 - **What to capture**: SMS verification code input screen
 - **Key elements to show**:
   - Verification code input field
   - "Verify" button
   - "Resend code" option
-- **File name**: `04-verification-code-screen.png`
+- **File name**: `03-verification-code-screen.png`
 
-### 5. Privacy Policy Modal
+### 4. Privacy Policy Modal
 - **What to capture**: In-app WebView showing Privacy Policy
 - **Key elements to show**:
   - Modal header with "Privacy Policy" title
   - Close button (X)
   - WebView content showing phlout.com/privacy-policy
   - User stays within the app (no external browser)
-- **File name**: `05-privacy-policy-modal.png`
+- **File name**: `04-privacy-policy-modal.png`
 
-### 6. Terms of Service Modal
+### 5. Terms of Service Modal
 - **What to capture**: In-app WebView showing Terms of Service
 - **Key elements to show**:
   - Modal header with "Terms of Service" title
   - Close button (X)
   - WebView content showing phlout.com/terms-of-service
   - User stays within the app (no external browser)
-- **File name**: `06-terms-of-service-modal.png`
+- **File name**: `05-terms-of-service-modal.png`
 
-### 7. Post-Verification Screen (Auto Check-in)
+### 6. Post-Verification Screen (Auto Check-in)
 - **What to capture**: Screen that appears after SMS verification completes
 - **Key elements to show**:
   - App navigation to check-in/venue discovery
   - User is now logged in and ready to use the app
   - No additional consent screens
-- **File name**: `07-post-verification-screen.png`
+- **File name**: `06-post-verification-screen.png`
 
 ## 🌐 Website Screenshots Required
 
-### 8. Privacy Policy Page
+### 7. Privacy Policy Page
 - **What to capture**: Full phlout.com/privacy-policy page
 - **Key elements to show**:
   - Complete privacy policy content
   - SMS consent section (if present)
   - Contact information
-- **File name**: `08-privacy-policy-website.png`
+- **File name**: `07-privacy-policy-website.png`
 
-### 9. Terms of Service Page
+### 8. Terms of Service Page
 - **What to capture**: Full phlout.com/terms-of-service page
 - **Key elements to show**:
   - Complete terms of service content
   - SMS consent section (if present)
   - Contact information
-- **File name**: `09-terms-of-service-website.png`
+- **File name**: `08-terms-of-service-website.png`
 
 ## 📋 Additional Screenshots (Optional but Recommended)
 
-### 10. App Settings - SMS Preferences
+### 9. App Settings - SMS Preferences
 - **What to capture**: Settings screen showing SMS preferences
 - **Key elements to show**:
   - SMS notification settings
   - Opt-out options
   - User control over SMS communications
-- **File name**: `10-sms-settings.png`
+- **File name**: `09-sms-settings.png`
 
-### 11. Database Consent Record (Admin View)
+### 10. Database Consent Record (Admin View)
 - **What to capture**: Database record showing consent
 - **Key elements to show**:
   - User ID
@@ -100,7 +95,7 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
   - Consent timestamp
   - Consent language
   - IP address (if logged)
-- **File name**: `11-database-consent-record.png`
+- **File name**: `10-database-consent-record.png`
 
 ## 📱 How to Take Screenshots
 
@@ -169,17 +164,16 @@ If you want me to run the git commands for you, just let me know!
 
 ## ✅ Screenshot Checklist
 
-- [ ] 01-phone-input-screen.png
-- [ ] 02-sms-consent-checkbox.png
-- [ ] 03-sms-consent-checked.png
-- [ ] 04-verification-code-screen.png
-- [ ] 05-privacy-policy-modal.png
-- [ ] 06-terms-of-service-modal.png
-- [ ] 07-post-verification-screen.png
-- [ ] 08-privacy-policy-website.png
-- [ ] 09-terms-of-service-website.png
-- [ ] 10-sms-settings.png (optional)
-- [ ] 11-database-consent-record.png (optional)
+- [ ] 01-phone-input-consent-screen.png
+- [ ] 02-sms-consent-checked.png
+- [ ] 03-verification-code-screen.png
+- [ ] 04-privacy-policy-modal.png
+- [ ] 05-terms-of-service-modal.png
+- [ ] 06-post-verification-screen.png
+- [ ] 07-privacy-policy-website.png
+- [ ] 08-terms-of-service-website.png
+- [ ] 09-sms-settings.png (optional)
+- [ ] 10-database-consent-record.png (optional)
 
 ## 📝 Notes
 
