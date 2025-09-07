@@ -61,25 +61,44 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
 
 ## 🌐 Website Screenshots Required
 
-### 7. Privacy Policy Page
+### 7. Website SMS Consent Form
+- **What to capture**: phlout.com "Join the Movement" popup with SMS consent
+- **Key elements to show**:
+  - "Join the Movement" modal title
+  - Name, Email, Phone input fields
+  - SMS consent checkbox with full consent language
+  - "Get Early Access" button
+  - Website branding (Phlout.com)
+- **File name**: `07-website-sms-consent-form.png`
+
+### 8. Website Consent Confirmation
+- **What to capture**: phlout.com "You're on the list!" confirmation screen
+- **Key elements to show**:
+  - "You're on the list!" success message
+  - SMS opt-out instructions ("Reply STOP to opt out, HELP for help")
+  - "Got it" confirmation button
+  - Website branding (Phlout.com)
+- **File name**: `08-website-consent-confirmation.png`
+
+### 9. Privacy Policy Page
 - **What to capture**: Full phlout.com/privacy-policy page
 - **Key elements to show**:
   - Complete privacy policy content
   - SMS consent section (if present)
   - Contact information
-- **File name**: `07-privacy-policy-website.png`
+- **File name**: `09-privacy-policy-website.png`
 
-### 8. Terms of Service Page
+### 10. Terms of Service Page
 - **What to capture**: Full phlout.com/terms-of-service page
 - **Key elements to show**:
   - Complete terms of service content
   - SMS consent section (if present)
   - Contact information
-- **File name**: `08-terms-of-service-website.png`
+- **File name**: `10-terms-of-service-website.png`
 
 ## 📋 Additional Screenshots (Optional but Recommended)
 
-### 9. Database Consent Record (Admin View)
+### 11. Database Consent Record (Admin View)
 - **What to capture**: Database record showing consent
 - **Key elements to show**:
   - User ID
@@ -87,7 +106,7 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
   - Consent timestamp
   - Consent language
   - IP address (if logged)
-- **File name**: `09-database-consent-record.png`
+- **File name**: `11-database-consent-record.png`
 
 ## 📱 How to Take Screenshots
 
@@ -156,15 +175,22 @@ If you want me to run the git commands for you, just let me know!
 
 ## ✅ Screenshot Checklist
 
-- [ ] 01-phone-input-consent-screen.png
-- [ ] 02-sms-consent-checked.png
-- [ ] 03-verification-code-screen.png
-- [ ] 04-privacy-policy-modal.png
-- [ ] 05-terms-of-service-modal.png
-- [ ] 06-post-verification-screen.png
-- [ ] 07-privacy-policy-website.png
-- [ ] 08-terms-of-service-website.png
-- [ ] 09-database-consent-record.png (optional)
+### App Screenshots
+- [x] 01-phone-input-consent-screen.png
+- [x] 02-sms-consent-checked.png
+- [x] 03-verification-code-screen.png
+- [x] 04-privacy-policy-modal.png
+- [x] 05-terms-of-service-modal.png
+- [x] 06-post-verification-screen.png
+
+### Website Screenshots
+- [ ] 07-website-sms-consent-form.png
+- [ ] 08-website-consent-confirmation.png
+- [ ] 09-privacy-policy-website.png
+- [ ] 10-terms-of-service-website.png
+
+### Additional Screenshots
+- [x] 11-database-consent-record.png (optional)
 
 ## 📝 Notes
 
