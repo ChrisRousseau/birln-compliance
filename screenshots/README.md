@@ -56,13 +56,13 @@ This document lists all the screenshots needed for Twilio A2P 10DLC compliance r
   - User stays within the app (no external browser)
 - **File name**: `06-terms-of-service-modal.png`
 
-### 7. Consent Flow Complete
-- **What to capture**: Success screen after verification
+### 7. Post-Verification Screen (Auto Check-in)
+- **What to capture**: Screen that appears after SMS verification completes
 - **Key elements to show**:
-  - Success message
-  - Next step in onboarding
-  - App navigation
-- **File name**: `07-consent-flow-complete.png`
+  - App navigation to check-in/venue discovery
+  - User is now logged in and ready to use the app
+  - No additional consent screens
+- **File name**: `07-post-verification-screen.png`
 
 ## 🌐 Website Screenshots Required
 
@@ -175,7 +175,7 @@ If you want me to run the git commands for you, just let me know!
 - [ ] 04-verification-code-screen.png
 - [ ] 05-privacy-policy-modal.png
 - [ ] 06-terms-of-service-modal.png
-- [ ] 07-consent-flow-complete.png
+- [ ] 07-post-verification-screen.png
 - [ ] 08-privacy-policy-website.png
 - [ ] 09-terms-of-service-website.png
 - [ ] 10-sms-settings.png (optional)
