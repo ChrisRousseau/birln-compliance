@@ -185,7 +185,7 @@ If you want me to run the git commands for you, just let me know!
 
 ### Website Screenshots
 - [ ] 07-website-sms-consent-form.png
-- [ ] 08-website-consent-confirmation.png
+- [x] 08-website-consent-confirmation.png
 - [ ] 09-privacy-policy-website.png
 - [ ] 10-terms-of-service-website.png
 
