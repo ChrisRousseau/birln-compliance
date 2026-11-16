@@ -31,12 +31,6 @@ Complete legal documentation:
 - [Privacy Policy SMS Section](./legal-documents/privacy-policy.md)
 - [Terms of Service SMS Section](./legal-documents/terms-of-service.md)
 
-### 🗄️ [Database Schema](./database-schema/)
-Technical implementation:
-- [SMS Consent Columns](./database-schema/sms-consent-columns.sql)
-- [Consent Functions](./database-schema/consent-functions.sql)
-- [Audit Trail Example](./database-schema/audit-trail-example.sql)
-
 ### 📋 [Compliance Documentation](./compliance-docs/)
 Detailed compliance information:
 - [Twilio A2P Checklist](./compliance-docs/twilio-a2p-checklist.md)
